@@ -1,0 +1,15 @@
+---
+title: "R-eproducibility Assignment"
+output: pdf_document
+---
+
+# Project Info
+January 26, 2022  
+Diego Sancho Kruppa 20101377   
+https://github.com/DSanchoKruppa/R-eproducibilityAssignment
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
