@@ -5,11 +5,20 @@ output: pdf_document
 
 # Project Info
 January 26, 2022  
-Diego Sancho Kruppa 20101377   
-https://github.com/DSanchoKruppa/R-eproducibilityAssignment
+Diego Sancho Kruppa 20101377  
+DSanchoKruppa  on GitHub     https://github.com/DSanchoKruppa/R-eproducibilityAssignment  
+  
+*project description goes here*  
+  
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+```
+Set up
+```{r, warning=FALSE, message=FALSE}
+library(tidyverse)
+library(ggplot2)
+fDat <- read.csv("./InputData/FallopiaData.csv")
 ```
 
 
